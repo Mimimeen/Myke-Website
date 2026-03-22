@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Myke's About Me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Syne+Mono&display=swap');
+
+        a:hover {
+            color: #431287
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vh;
+            background: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Zapfino, cursive;
+            overflow: hidden;
+        }
+
+        .main-image {
+            width: 860px;
+            height: auto;
+            margin-left: 150px;
+        }
+
+        .title-card {
+            position: absolute;
+            top: 160px;
+            left: 80px;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+
+        .syne-mono-regular {
+            font-family: "Syne Mono", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        .bitcount-regular {
+            font-family: "Bitcount", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0,
+                "CRSV" 0.5,
+                "ELSH" 0,
+                "ELXP" 0;
+        }
+
+        .text-normal {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .text-normal:hover {
+            color: #431287;
+        }
+
+        .text-writing {
+            color: black;
+            text-decoration: none;
+            font-family: "Syne Mono", monospace;
+            max-width: 300px;
+            max-height: 550px;
+            overflow-y: scroll;
+            text-align: left;
+        }
+
+        .border-semi {
+            height: 10px;
+            width: 550px;
+            background-image: url("Assets/halftone-artwork_3.jpg");
+            background-repeat: repeat-x;
+            background-size: 10px;
+            margin-left: -9em;
+        }
+
+        .directory {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            align-items: center;
+            position: absolute;
+            bottom: 30px;
+            left: 35%;
+            transform: translateX(-50%);
+        }
+
+        .dir-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-family: "Bitcount", system-ui;
+        }
+
+        .dir-item a:hover {
+            background-image: url("Assets/halftone-artwork_hover.jpg");
+            background-size: cover;
+            transition: all 0.3 ease;
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 110px;
+            right: 160px;
+            font-family: "Syne Mono";
+            width: 300px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="Assets/609ADAB0-0A70-4340-9627-08684F59665F.PNG" alt="Me" class="main-image">
+    <div class="title-card">
+        <span class="syne-mono-regular" style="font-size:1.95em; z-index: 10;">myKE ADOLPHUS</span>
+        <a href="MimiInformatica_hompeage_v2.html" class="text-normal"
+            style="font-size:1.7em; margin-left:0.7em; z-index: 10;">BioInformatica</a>
+    </div>
+    <div class="text-container">
+        <p>Hello, I'm Mike. I'm a Brown University student, who studies Applied Math-Biology.
+            I'm interested in the intersection between Biology, Mathematics, Computer Science, and Medicine!</p>
+
+        <p>This website will have resources posted about various topics that Bioinformatics touches. I'll post about any
+            research articles I found interesting. I'll also discuss my research as an undergraduate/medical student at
+            Brown University.</p>
+
+        <p>Sign up for my RSS, which is linked somewhere on this page. My contact is m_dolly@protonmail.com. DFTBA!
+        </p>
+
+        <a href="MimiRSS.xml">
+            <img src="Assets/halftone-artwork-RSS.jpg" style="width: 30px; height: 100%; float: right;">
+        </a>
+    </div>
+    <div class="directory">
+        <div class="dir-item">
+            <a href="MimiInformatica_aboutme.html" style=" color:black">
+                About Me
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="blog/Mimiindex.html" style=" color:black">
+                Journal Club
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="MimiInformatica_research.html" style=" color:black">
+                Research
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="/MimiInformatica_library.html" style=" color:black">
+                Library
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="/MimiInformatica_resources.html" style=" color:black">
+                Resources
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

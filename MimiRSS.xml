@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>{Bioinformatica Updates}</title>
+  <description>{I discuss my personal research and post thoughts about research papers I enjoy.}</description>
+  <link>{/MimiInformatica_welcomepage.html}</link>
+  <lastBuildDate>
+    {Sun, 22 Mar 2026 22:39:59 +0000}
+  </lastBuildDate>
+  <ttl>{5760}</ttl>
+   <item>
+    <title>{Start of Something New}</title>
+    <description>
+      {I commemorate the publishing of my website!}
+    </description>
+    <link>{/blog/posts/MimiFpost/index.html}</link>
+    <pubDate>
+      {Sun, 22 Mar 2026 22:39:59 +0000}
+    </pubDate>
+  </item>
+</channel>
+</rss>

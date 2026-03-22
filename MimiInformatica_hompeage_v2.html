@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Myke's Home Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Syne+Mono&display=swap');
+
+        a:hover {
+            color: #431287
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vh;
+            background: #f9f9f9;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Zapfino, cursive;
+            overflow: hidden;
+        }
+
+        .main-image {
+            width: 500px;
+            height: auto;
+            margin-left: 100px;
+        }
+
+        .title-card {
+            position: absolute;
+            top: 140px;
+            left: 80px;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+
+        .syne-mono-regular {
+            font-family: "Syne Mono", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        .bitcount-regular {
+            font-family: "Bitcount", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0,
+                "CRSV" 0.5,
+                "ELSH" 0,
+                "ELXP" 0;
+        }
+
+        .text-normal {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .text-normal:hover {
+            color: #431287;
+        }
+
+        .text-writing {
+            color: black;
+            text-decoration: none;
+            font-family: "Syne Mono", monospace;
+            max-width: 300px;
+            max-height: 550px;
+            overflow-y: scroll;
+            text-align: left;
+        }
+
+        .border-semi {
+            height: 10px;
+            width: 550px;
+            background-image: url("Assets/halftone-artwork_3.jpg");
+            background-repeat: repeat-x;
+            background-size: 10px;
+            margin-left: -9em;
+        }
+
+        .directory {
+            position: absolute;
+            top: 448px;
+            left: 700px;
+        }
+
+        .dir-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-family: "Bitcount", system-ui;
+            font-size: 1.1em;
+            background-image: url("Assets/halftone-artwork_2.jpg");
+            background-size: cover;
+            background-position-x: 15px;
+            background-position-y: -9px
+        }
+
+        .dir-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-family: "Bitcount", system-ui;
+        }
+
+        .dir-item a:hover {
+            background-image: url("Assets/halftone-artwork_hover.jpg");
+            background-size: cover;
+            transition: all 0.3 ease;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="Assets/halftone-artwork-phage.jpg" alt="Phage" class="main-image">
+    <div class="title-card">
+        <span class="syne-mono-regular" style="font-size:1.95em; z-index: 10;">myKE ADOLPHUS</span>
+        <a href="MimiInformatica_welcomepage.html" class="text-normal"
+            style="font-size:1.7em; margin-left:0.7em; z-index: 10;">BioInformatica</a>
+    </div>
+    <div class="directory">
+        <div class="dir-header">
+            Directory
+        </div>
+        <div class="dir-item">
+            <a href="MimiInformatica_aboutme.html" style=" color:black">
+                About Me
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="blog/Mimiindex.html" style=" color:black">
+                Journal Club
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="MimiInformatica_research.html" style=" color:black">
+                Research
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="/MimiInformatica_library.html" style=" color:black">
+                Library
+            </a>
+        </div>
+        <div class="dir-item">
+            <a href="/MimiInformatica_resources.html" style=" color:black">
+                Resources
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
