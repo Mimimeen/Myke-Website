@@ -69,7 +69,7 @@ body {
 }
 
 .dir-item a:hover {
-    background-image: url("/assets/halftone-artwork_hover.jpg");
+    background-image: url("../assets/halftone-artwork-hover.jpg");
     background-size: cover;
     transition: all 0.3 ease;
 }
@@ -85,7 +85,7 @@ body {
     transform: translateX(-50%);
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/halftone-artwork_3.jpg");
+    background-image: url("../assets/halftone-artwork-3.jpg");
     background-size: contain;
 }
 

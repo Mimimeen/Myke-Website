@@ -8,22 +8,22 @@ permalink: "/blog/Mimiindex.html"
 <head>
   <meta charset="UTF-8">
   <title>Myke's Journal Club</title>
-  <link rel="stylesheet" href="/blog/stylemimi.css">
+  <link rel="stylesheet" href="stylemimi.css">
 </head>
 
 <body>
   <div class="title-card">
         <span class="syne-mono-regular" style="font-size:1.95em; z-index: 10;">myKE ADOLPHUS</span>
-        <a href="/MimiInformatica_hompeage_v2.html" class="text-normal"
+        <a href="../MimiInformatica_hompeage_v2.html" class="text-normal"
             style="font-size:1.7em; margin-left:0.7em; z-index: 10;">BioInformatica</a>
   </div>
   <div class = "main-container">
     <div class = "text-container">
-    <h1> Mike's Journal Club </h1>
+    <h1> Mike's Journal Club</h1>
     <ul>
       {% for post in collections.blog %}
-        <li>
-          <a href="{{ post.url }}">{{ post.data.title }}</a>
+         <li>
+          <a href="/MimiWeb{{ post.url }}">{{ post.data.title }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -32,31 +32,31 @@ permalink: "/blog/Mimiindex.html"
 
   <div class="directory">
         <div class="dir-item">
-            <a href="/MimiInformatica_aboutme.html" style=" color:black">
+            <a href="../MimiInformatica_aboutme.html" style=" color:black">
                 About Me
             </a>
         </div>
         <div class="dir-item">
-            <a href="/blog/Mimiindex.html" style=" color:black">
+            <a href="../blog/Mimiindex.html" style=" color:black">
                 Journal Club
             </a>
         </div>
         <div class="dir-item">
-            <a href="/MimiInformatica_research.html" style=" color:black">
+            <a href="../MimiInformatica_research.html" style=" color:black">
                 Research
             </a>
         </div>
         <div class="dir-item">
-            <a href="/MimiInformatica_library.html" style=" color:black">
+            <a href="../MimiInformatica_library.html" style=" color:black">
                 Library
             </a>
         </div>
         <div class="dir-item">
-            <a href="/MimiInformatica_resources.html" style=" color:black">
+            <a href="../MimiInformatica_resources.html" style=" color:black">
                 Resources
             </a>
         </div>
     </div>
-    <img src="/assets/halftone-artwork-2.jpg" style = "position: fixed; z-index: -8; background-size: contain; width: 300px; height: 100%; left: 100px;">
+    <img src="../assets/halftone-artwork-2.jpg" style = "position: fixed; z-index: -8; background-size: contain; width: 300px; height: 100%; left: 100px;">
 </body>
 </html>

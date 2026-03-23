@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("stylemimi.css");
+    eleventyConfig.addPassthroughCopy({ "stylemimi.css": "blog/stylemimi.css" });
 
     return {
         dir: {
